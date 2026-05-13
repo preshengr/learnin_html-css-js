@@ -1,24 +1,30 @@
+/* The action exhibited below is called a text selector*/
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
 h1 {
   color: #1109ab;
   font-size: 26px;
-  font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
 }
 
 h2 {
   font-size: 40px;
-  font-family: sans-serif;
 }
 
 h3 {
   font-size: 30px;
-  font-family: sans-serif;
 }
 
 h4 {
   font-size: 20px;
-  font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -32,4 +38,21 @@ p {
 li {
   font-size: 20px;
   font-family: sans-serif;
+}
+
+/* The actions exhibited below is called descendant selector*/
+footer p {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* This is a nested descendant selector
+article header p {
+  font-size: 18px;
+  font-style: italic;
+}*/
+
+#author {
+  font-size: 18px;
+  font-style: italic;
 }
