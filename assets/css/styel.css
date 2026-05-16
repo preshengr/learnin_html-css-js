@@ -1,4 +1,4 @@
-/* The action exhibited below is called a text selector*/
+/* The action exhibited below is called a text selector or you can say that you combined selectors*/
 h1,
 h2,
 h3,
@@ -58,4 +58,9 @@ article header p {
 
 #copyright {
   font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
 }
