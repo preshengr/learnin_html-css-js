@@ -37,14 +37,13 @@ p {
 
 li {
   font-size: 20px;
-  font-family: sans-serif;
 }
 
 /* The actions exhibited below is called descendant selector*/
-footer p {
+/* footer p {
   text-align: center;
   font-size: 16px;
-}
+} */
 
 /* This is a nested descendant selector
 article header p {
@@ -55,4 +54,8 @@ article header p {
 #author {
   font-size: 18px;
   font-style: italic;
+}
+
+#copyright {
+  font-size: 16px;
 }
