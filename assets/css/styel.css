@@ -37,7 +37,6 @@ h4 {
 
 p {
   font-size: 22px;
-  font-family: sans-serif;
   line-height: 1.5;
 }
 
@@ -95,4 +94,12 @@ body {
 
 li:first-child {
   font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  /* color: red; */
 }
