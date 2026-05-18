@@ -81,5 +81,18 @@ article header p {
 
 aside {
   background-color: #f7f7f7;
-  border: 5px solid #1098ad;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+body {
+  /* background-color: orangered; */
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
 }
